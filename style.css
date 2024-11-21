@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.banner {
+  width: 1290px;
+  height: 278px;
+  background-color: #e1f1ff;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  align-items: center;
+  padding-top: 18px;
+}
+
+.phoneimg {
+  width: 160px;
+  height: 350px;
+  position: relative;
+  top: 10%;
+}
+
+.content {
+  width: 50%;
+}
+
+.content line1 p{
+  color: #33495c;
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  max-width: 500px;
+  text-align: start;
+  margin: 0 0 20px 0;
+}
+
+.content line2 h4 {
+  color: #0067c6;
+  text-align: start;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 10px 0 0 0;
+}
+
+.content line2 p {
+  color: #33495c;
+  text-align: start;
+  font-size: 20px;
+  font-weight: 200;
+  margin: 0 0 20px 0;
+}
+
+
+.getapps {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.getapps img{
+    width: 200px;
+  }
